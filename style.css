@@ -1,0 +1,19 @@
+canvas
+{
+    background-color: black;
+    border-radius: 10px;
+    border-color: white;
+}
+.heading h3
+{
+display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+#start ,#status
+{
+    font-size: 22px;}
+  
