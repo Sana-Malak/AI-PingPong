@@ -15,5 +15,19 @@ display: inline;
 }
 #start ,#status
 {
-    font-size: 22px;}
+    font-size: 22px;
+}
+
+h4
+{
+    background-color: blanchedalmond;
+    line-height: 2;
+    margin: 0px;
+}
+.modal-dialog
+{
+    width: 90%;
+}
+
+
   
