@@ -1,9 +1,9 @@
-canvas
-{
+#myCanvas
+ {
     background-color: black;
     border-radius: 10px;
     border-color: white;
-}
+ }
 .heading h3
 {
 display: inline;
@@ -27,6 +27,14 @@ h4
 .modal-dialog
 {
     width: 90%;
+}
+video
+{
+    background: url('Red Border.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    
 }
 
 

@@ -1,17 +1,18 @@
 img=""
-noseX= 0;
-noseY= 0;
-mario=325;
-mario=325;
+wristX= 0;
+wristY= 0;
+paddle=325;
+paddle=325;
 
 function preload()
 {
     img=loadImage("paddle05.svg")
 }
 
+
 function setup()
 {
-    createCanvas(650, 400);
+    createCanvas(1805, 800);
     video=createCapture(VIDEO);
     video.size(600,300);
 
@@ -28,15 +29,15 @@ function setup()
 function draw()
 {
     background("#D3D3D3");
-    if(noseX < 300)
+    if(wristX < 300)
     {
         paddleX=paddleX - 1;
     }
-    if(noseY < 150)
+    if(wristY < 150)
     {
         paddleY=paddleY - 1;
     }
-    image(img,marioX,marioY, 40,70)
+    image(img,wristX,wristY, 40,70)
 }
 
 function modelLoaded() {
