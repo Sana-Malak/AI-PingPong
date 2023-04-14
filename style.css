@@ -1,41 +1,23 @@
-#myCanvas
- {
-    background-color: black;
-    border-radius: 10px;
-    border-color: white;
- }
-.heading h3
-{
-display: inline;
-}
 
-.heading button{
-    float: right;
-    border: 1px solid white;
+.heading{
+    width: 100%;
+    text-align: left;
 }
-#start ,#status
-{
-    font-size: 22px;
+.heading h3{
+    display: inline;
 }
-
-h4
-{
-    background-color: blanchedalmond;
-    line-height: 2;
-    margin: 0px;
+.big_image{
+    width: 100%;
 }
-.modal-dialog
-{
-    width: 90%;
+#start,#restart{
+    font-size: 20px;
 }
-video
-{
-    background: url('Red Border.png');
-    background-size: cover;
-    background-position: center;
-    padding: 25px;
-    
-}
-
-
-  
+.copy_right_footer{
+    position: fixed;
+    color: goldenrod;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(197, 99, 151);
+    line-height: 3;
+    text-align: center;
+    }
